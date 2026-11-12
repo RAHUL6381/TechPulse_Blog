@@ -49,10 +49,10 @@ app.get('/api/health', (req, res) => {
     database: getMongoStatus(),
     timestamp: new Date().toISOString()
   });
-
-  app.get('/', (req, res) => {
-  res.send('API is running successfully!');
 });
+
+app.get('/', (req, res) => {
+  res.send('API is running successfully!');
 });
 
 // Centralized error handler
