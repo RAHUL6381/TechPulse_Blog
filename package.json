@@ -1,0 +1,11 @@
+{
+  "name": "techpulse-platform",
+  "version": "1.0.0",
+  "description": "TechPulse — Corporate Technology Publication & Content Management System (MERN)",
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["mern", "tech-blog", "cms", "enterprise", "editorial"]
+}
